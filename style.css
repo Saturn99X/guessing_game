@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(blueGridBg.jpg);
+    background-size: fill;
+    font-family: 'League Spartan', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: linear-gradient(135deg, navy, #87ceeb);
+    scale: 1.1 ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    position: relative;
+    opacity: 1 ;
+  }
+  
+  
+  .container:hover {
+    background: linear-gradient(135deg, rebeccapurple, navy);
+    scale: 1.2 ;
+  }
+
+  h1 {
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  p {
+    color: #0c0226;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-family: 'League Spartan', sans-serif;
+    
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  button.hidden {
+    display: none;
+  }
+  
+  #message {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  
+  #attempts {
+    margin-top: 10px;
+    color: #888;
+  }
+  
+  #guessInput:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  
